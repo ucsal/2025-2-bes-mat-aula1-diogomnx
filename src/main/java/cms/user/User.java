@@ -19,7 +19,5 @@ public abstract class User {
 
     public String getEmail() {return email;}
 
-    public boolean checkPassword(String p) {
-        return password.equals(p);
-    }
+    public boolean checkPassword(String p) {return password.equals(p);}
 }
